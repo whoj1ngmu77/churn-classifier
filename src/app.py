@@ -48,16 +48,16 @@ COLORS = ['#e74c3c', '#f7b731', '#4ecdc4', '#7c8cff', '#a78bfa', '#ff8a80', '#ff
 
 @st.cache_resource
 def load_model():
-    with open('../outputs/xgb_model.pkl', 'rb') as f:
+    with open('outputs/xgb_model.pkl', 'rb') as f:
         model = pickle.load(f)
-    with open('../outputs/scaler.pkl', 'rb') as f:
+    with open('outputs/scaler.pkl', 'rb') as f:
         scaler = pickle.load(f)
     return model, scaler
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/processed/churn_clean.csv')
-    fi = pd.read_csv('../data/processed/feature_importance.csv')
+    df = pd.read_csv('data/processed/churn_clean.csv')
+    fi = pd.read_csv('data/processed/feature_importance.csv')
     return df, fi
 
 model, scaler = load_model()
