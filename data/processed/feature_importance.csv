@@ -1,0 +1,29 @@
+Feature,Importance
+tenure,0.7331002
+Contract_Two year,0.66129917
+ChargePerService,0.4546923
+Contract_One year,0.34136587
+MonthlyCharges,0.3195341
+TotalCharges,0.3015691
+AvgMonthlyCharge,0.29314837
+InternetService_Fiber optic,0.20264661
+PaymentMethod_Electronic check,0.19192487
+MultipleLines,0.16727528
+TechSupport,0.15385944
+PaperlessBilling,0.11342461
+OnlineSecurity,0.112374604
+StreamingMovies,0.110318705
+StreamingTV,0.09263908
+SeniorCitizen,0.08506091
+OnlineBackup,0.07634693
+PhoneService,0.07597141
+gender,0.0646165
+PaymentMethod_Mailed check,0.047996216
+PaymentMethod_Credit card (automatic),0.04677393
+Dependents,0.044891458
+Partner,0.04286504
+InternetService_No,0.037434034
+DeviceProtection,0.037103694
+TenureGroup_Mature,0.014049641
+TenureGroup_Loyal,0.0
+TenureGroup_New,0.0
